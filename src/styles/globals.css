@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-white antialiased font-sans;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .service-card {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .service-card:hover {
+    @apply -translate-y-2;
+  }
+
+  .portfolio-item:hover .portfolio-overlay {
+    @apply opacity-100;
+  }
+}
