@@ -1,18 +1,21 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Img from '@/components/Img';
 
 export default function HeroSection() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
-      <Img
-        src="/images/hero-bg.jpg"
-        alt=""
-        aspectRatio="auto"
-        className="absolute inset-0 w-full h-full"
-        sizes="100vw"
-        priority
-      />
+      <div className="absolute inset-0">
+        <Image
+          src="/images/hero-bg.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          sizes="100vw"
+          priority
+        />
+      </div>
 
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/60" />

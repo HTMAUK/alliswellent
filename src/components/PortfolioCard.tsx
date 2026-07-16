@@ -1,16 +1,16 @@
-import Img from '@/components/Img';
+import Image from 'next/image';
 import YouTubeEmbed from '@/components/YouTubeEmbed';
 import type { PortfolioItem } from '@/data/portfolio';
 
 export default function PortfolioCard({ item }: { item: PortfolioItem }) {
   return (
     <div className="portfolio-item group relative overflow-hidden rounded-2xl bg-brand-gray">
-      <div className="relative" style={{ aspectRatio: '16/9' }}>
-        <Img
+      <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
+        <Image
           src={item.image}
           alt={item.title}
-          aspectRatio="16/9"
-          className="w-full h-full"
+          fill
+          className="object-cover"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
 
