@@ -16,7 +16,7 @@ export default function PortfolioCard({ item }: { item: PortfolioItem }) {
 
         {/* Network badge */}
         <div className="absolute top-4 right-4 z-10">
-          <span className="bg-brand-red text-white px-3 py-1 rounded-full text-sm font-semibold">
+          <span className="bg-brand-steel text-white px-3 py-1 rounded-full text-sm font-semibold">
             {item.network}
           </span>
         </div>

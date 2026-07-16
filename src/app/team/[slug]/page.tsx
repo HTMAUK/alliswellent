@@ -67,7 +67,7 @@ export default function TeamMemberPage({ params }: Props) {
 
             {/* Bio */}
             <div>
-              <p className="text-brand-red font-semibold mb-2 uppercase tracking-wider text-sm">
+              <p className="text-brand-steel font-semibold mb-2 uppercase tracking-wider text-sm">
                 {member.role}
               </p>
               <h1 className="text-5xl font-display font-bold mb-8">
@@ -102,7 +102,7 @@ export default function TeamMemberPage({ params }: Props) {
                         key={credit}
                         className="flex items-center gap-3 text-gray-300"
                       >
-                        <span className="w-2 h-2 rounded-full bg-brand-red flex-shrink-0" />
+                        <span className="w-2 h-2 rounded-full bg-brand-steel flex-shrink-0" />
                         {credit}
                       </li>
                     ))}

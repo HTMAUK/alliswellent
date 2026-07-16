@@ -15,7 +15,7 @@ export default function ContactPage() {
       <section className="pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-brand-red font-semibold mb-4 uppercase tracking-wider text-sm">
+            <p className="text-brand-steel font-semibold mb-4 uppercase tracking-wider text-sm">
               Contact Us
             </p>
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6 leading-tight">
@@ -34,19 +34,19 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
             {/* Form */}
-            <div className="lg:col-span-2 bg-brand-charcoal rounded-2xl p-8 md:p-12 border border-brand-gray/20">
+            <div className="lg:col-span-2 bg-brand-charcoal rounded-2xl p-8 md:p-12 border border-brand-steel/20">
               <ContactForm />
             </div>
 
             {/* Sidebar */}
             <div className="space-y-8">
-              <div className="bg-brand-charcoal rounded-2xl p-8 border border-brand-gray/20">
+              <div className="bg-brand-charcoal rounded-2xl p-8 border border-brand-steel/20">
                 <h3 className="text-xl font-display font-bold mb-6">
                   Get in Touch
                 </h3>
                 <ul className="space-y-6">
                   <li className="flex items-start gap-4">
-                    <Mail className="text-brand-red mt-1 flex-shrink-0" size={20} />
+                    <Mail className="text-brand-steel mt-1 flex-shrink-0" size={20} />
                     <div>
                       <p className="font-medium">Email</p>
                       <a
@@ -58,7 +58,7 @@ export default function ContactPage() {
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <Phone className="text-brand-red mt-1 flex-shrink-0" size={20} />
+                    <Phone className="text-brand-steel mt-1 flex-shrink-0" size={20} />
                     <div>
                       <p className="font-medium">Phone</p>
                       <a
@@ -70,7 +70,7 @@ export default function ContactPage() {
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <MapPin className="text-brand-red mt-1 flex-shrink-0" size={20} />
+                    <MapPin className="text-brand-steel mt-1 flex-shrink-0" size={20} />
                     <div>
                       <p className="font-medium">Based In</p>
                       <p className="text-brand-silver text-sm">
@@ -83,7 +83,7 @@ export default function ContactPage() {
                 </ul>
               </div>
 
-              <div className="bg-brand-charcoal rounded-2xl p-8 border border-brand-gray/20">
+              <div className="bg-brand-charcoal rounded-2xl p-8 border border-brand-steel/20">
                 <h3 className="text-xl font-display font-bold mb-4">
                   Response Time
                 </h3>

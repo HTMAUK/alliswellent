@@ -7,6 +7,7 @@ const config: Config = {
       colors: {
         brand: {
           red: 'hsl(0 85% 50%)',
+          steel: '#8b9099',
           dark: '#111111',
           charcoal: '#1a1a1a',
           gray: '#333333',

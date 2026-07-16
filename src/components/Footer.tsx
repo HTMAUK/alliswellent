@@ -25,7 +25,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-brand-dark border-t border-brand-gray/20 py-12">
+    <footer className="bg-brand-dark border-t border-brand-steel/20 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
@@ -100,7 +100,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-brand-gray/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-brand-steel/20 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-neutral-500 text-sm">
             &copy; {new Date().getFullYear()} All is Well Entertainment. All
             rights reserved.

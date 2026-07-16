@@ -33,20 +33,20 @@ export default function HomePage() {
       <HeroSection />
 
       {/* Stats strip */}
-      <section className="bg-brand-charcoal py-12 border-y border-brand-gray/20">
+      <section className="bg-brand-charcoal py-12 border-y border-brand-steel/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="flex flex-col items-center gap-2">
-            <Award className="text-brand-red" size={32} />
+            <Award className="text-brand-steel" size={32} />
             <p className="text-3xl font-display font-bold">Emmy Winner</p>
             <p className="text-brand-silver text-sm">Award-Winning Production</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <Tv className="text-brand-red" size={32} />
+            <Tv className="text-brand-steel" size={32} />
             <p className="text-3xl font-display font-bold">25+ Years</p>
             <p className="text-brand-silver text-sm">Television & Film Experience</p>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <MapPin className="text-brand-red" size={32} />
+            <MapPin className="text-brand-steel" size={32} />
             <p className="text-3xl font-display font-bold">All 50 States</p>
             <p className="text-brand-silver text-sm">Nationwide Production</p>
           </div>

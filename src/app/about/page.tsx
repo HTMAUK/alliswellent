@@ -32,7 +32,7 @@ export default function AboutPage() {
       <section className="pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <p className="text-brand-red font-semibold mb-4 uppercase tracking-wider text-sm">
+            <p className="text-brand-steel font-semibold mb-4 uppercase tracking-wider text-sm">
               About Us
             </p>
             <h1 className="text-5xl md:text-6xl font-display font-bold mb-6 leading-tight">
@@ -48,7 +48,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="bg-brand-charcoal py-16 border-y border-brand-gray/20">
+      <section className="bg-brand-charcoal py-16 border-y border-brand-steel/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
             { icon: Award, label: 'Emmy Winner', sub: 'Award-Winning' },
@@ -57,7 +57,7 @@ export default function AboutPage() {
             { icon: Users, label: 'Fortune 500', sub: 'To Grassroots' },
           ].map(({ icon: Icon, label, sub }) => (
             <div key={label} className="flex flex-col items-center gap-2">
-              <Icon className="text-brand-red" size={28} />
+              <Icon className="text-brand-steel" size={28} />
               <p className="text-2xl font-display font-bold">{label}</p>
               <p className="text-brand-silver text-sm">{sub}</p>
             </div>
@@ -80,7 +80,7 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <p className="text-brand-red font-semibold mb-2 uppercase tracking-wider text-sm">
+              <p className="text-brand-steel font-semibold mb-2 uppercase tracking-wider text-sm">
                 Meet the Founder
               </p>
               <h2 className="text-4xl font-display font-bold mb-2">
